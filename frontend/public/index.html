@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
+    <!-- Кодировка и адаптивность -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplayer Game</title>
+    <title>Многопользовательская игра</title>
+    <!-- Подключаем стили Tailwind через CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Подключаем стили проекта -->
     <link href="/src/styles.css" rel="stylesheet">
 </head>
+
 <body>
+    <!-- Корневой элемент для React -->
     <div id="root"></div>
+    <!-- Подключаем React и Babel -->
     <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.10/babel.min.js"></script>
+    <!-- Подключаем основной скрипт React -->
     <script type="text/babel" src="/src/index.js"></script>
 </body>
+
 </html>

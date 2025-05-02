@@ -1,0 +1,6 @@
+/* Базовые стили Tailwind */
+@tailwind base;
+/* Компоненты Tailwind */
+@tailwind components;
+/* Утилиты Tailwind */
+@tailwind utilities;
